@@ -1,0 +1,11 @@
+@import '../../styles/settings.scss';
+
+.cardForm {
+    display: flex;
+    
+
+    .description {
+      margin-right: 10px;
+      line-height: 3;
+    }
+}
