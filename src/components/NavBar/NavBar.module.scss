@@ -14,18 +14,27 @@
   .menu{
     display: flex;
     list-style: none;
-
-    li a{
-      text-decoration: none;
-      color: white;
-      padding-left: 10px;
-      font-size: 16px;
-    }
   }
 
   .icon{
      font-size: 24px;
      color: white;
   }
+
+  .link{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .linkActive{
+    color: $color-warning;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 16px;
+  }
 }
+
+
 
